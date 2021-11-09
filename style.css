@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 247, 128);
+    margin: 0 100px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    padding: 10px 35px;
+    margin: 10px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+input{
+    height: 25px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+textarea{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+input:hover{
+    border: 4px solid blue;
+}
+textarea:hover{
+    border: 4px solid blue;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 300px;
+}
+.btn{
+    display: flex;
+}
+#submit{
+    margin: 15px 80px;
+    background-color: blue;
+    color: white;
+}
+#reset{
+    margin: 15px 80px;
+    background-color: blue;
+    color: white;
+}
